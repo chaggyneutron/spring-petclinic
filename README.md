@@ -33,6 +33,6 @@ This project demonstrates and compares two CI/CD approaches for a Java Spring Bo
 - Jenkins
 
 ## Results
-- 57 unit tests passing
+- 43 unit tests passing
 - SonarQube: 0 bugs, 0 vulnerabilities
 - Docker image pushed to ECR on every build
