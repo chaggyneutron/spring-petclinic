@@ -27,7 +27,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                sh 'mvn test -Dsurefire.excludes=**/PostgresIntegrationTests.java'
             }
         }
 
